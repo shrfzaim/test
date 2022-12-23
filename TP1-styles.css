@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Fjalla One", sans-serif;
+}
+html {
+  height: 100%;
+}
+body {
+  min-height: 100vh;
+}
+/*TopSection*/
+.top-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: rgba(81, 0, 128, 0.768);
+  background-size: cover;
+  background-position: center;
+}
+
+header {
+  position: relative;
+  width: 100%;
+  padding: 30px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*ContentSection*/
+.content-section {
+  display: flex;
+  width: 100%;
+  padding: 30px 20px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/*LeftContent*/
+.left-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: fit-content;
+}
+
+.img {
+  background-color: rgba(255, 0, 0, 0.663);
+  padding: 60px 50px;
+}
+
+.text1 {
+  background-color: aquamarine;
+  padding: 30px 50px;
+}
+
+.text2 {
+  background-color: aquamarine;
+  padding: 30px 50px;
+}
+
+/*RightContent*/
+.right-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text3 {
+  background-color: aquamarine;
+  padding: 30px 70px;
+}
+
+.text4 {
+  background-color: aquamarine;
+  padding: 150px 70px;
+}
+
+/*BottomContent*/
+.img2 {
+  background-color: rgba(255, 0, 0, 0.663);
+  padding: 100px 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+/*Footer*/
+
+.footer-bottom {
+  background-color: grey;
+  height: 40px;
+  bottom: 0;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  margin-top: auto;
+}
